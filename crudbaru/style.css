@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    background: #b9ddff;
+    min-height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background: #ffe3ec;
+    padding: 28px;
+    border-radius: 26px;
+    width: 380px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.todo-item {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 14px 16px;
+    margin-bottom: 14px;
+}
+
+.nama {
+    font-weight: 600;
+    color: #333;
+}
+
+.target {
+    font-size: 14px;
+    color: #555;
+    margin-top: 4px;
+}
+
+.todo {
+    font-size: 13px;
+    color: #777;
+    margin-top: 6px;
+}
+
+.btn {
+    display: block;
+    margin-top: 18px;
+    padding: 12px;
+    background: #6aa9ff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form input,
+.form textarea {
+    padding: 12px 14px;
+    border-radius: 14px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.form textarea {
+    resize: none;
+    height: 80px;
+}
+
+.form button {
+    margin-top: 8px;
+    padding: 12px;
+    background: #6aa9ff;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    opacity: 0.9;
+}
+
+.btn-link {
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+    color: #6aa9ff;
+    text-decoration: none;
+}
